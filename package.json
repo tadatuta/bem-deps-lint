@@ -1,0 +1,35 @@
+{
+  "name": "bem-deps-lint",
+  "version": "1.0.0",
+  "description": "Check project deps to be present on FS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "bem-deps-lint": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tadatuta/bem-deps-lint"
+  },
+  "keywords": [
+    "bem",
+    "deps",
+    "lint",
+    "enb",
+    "bem-tools"
+  ],
+  "author": "Vladimir Grinenko",
+  "license": "MPL 2.0",
+  "bugs": {
+    "url": "https://github.com/tadatuta/bem-deps-lint/issues"
+  },
+  "homepage": "https://github.com/tadatuta/bem-deps-lint",
+  "dependencies": {
+    "bem-naming": "^0.5.1",
+    "bem-walk": "0.0.4",
+    "coa": "^1.0.1",
+    "lodash": "^3.9.3"
+  }
+}
